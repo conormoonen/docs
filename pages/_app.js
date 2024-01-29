@@ -28,7 +28,7 @@ const DESCRIPTION = 'StationOps DOCS';
 
 const FONTS_BASE_URL = process.env.NEXT_PUBLIC_FONTS_BASE_URL || '/fonts';
 
-const APP_HOST = process.env.APP_HOST || ''
+const APP_HOST = process.env.APP_HOST || 'https://stationops.com';
 
     function collectHeadings(node, sections = []) {
   if (node) {

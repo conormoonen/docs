@@ -35,7 +35,7 @@ function WizardPrompt() {
 
     function goToWizard() {
 
-        const appHost = process.env.APP_HOST || 'http://localhost:5173';
+        const appHost = process.env.APP_HOST || 'https://stationops.com';
 
         window.open(`${appHost}/wizard?initialserviceframeworktype=${initialServiceFrameworkType || ''}&initialservicename=${initialServiceName || ''}`, "_blank");
     }
