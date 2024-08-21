@@ -10,11 +10,11 @@ module.exports = withMarkdoc()({
 
   redirects() {
     return [
-      {
+      /*{
         source: '/',
-        destination: '/',
+        destination: '/get-started',
         permanent: false
-      }
+      }*/
     ];
   },
   rewrites() {
