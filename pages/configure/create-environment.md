@@ -5,17 +5,18 @@ description: Create Environment
 
 # {% $markdoc.frontmatter.title %}
 
+1. Navigate to your project's dashboard and click **Settings**.
+2. Within the Environments Settings dashboard click **Create Environment**.
+
+    ![Environments](/images/create/EnvironmentSettings.png){%  .rounded-image .max-w-3xl .mx-auto %}
+
+3. Provide an environment name and configure permission settings then click **Create**.
+
+&nbsp;  
 
 
-1. Navigate to your project's dashboard and click __Settings__.
-2. Click __Environments__ in the side navigation.
-3. Click __Create Environment__.
-4. Provide an environment name and then click __Create__.
+![CreateEnvironmentName](/images/create/configureEnvironmentName.png){%  .rounded-image .max-w-3xl .mx-auto %}
 
-![Environments](/images/example-walkthrough/environments.png){% .rounded-image  %}
+The new environment should now appear within the Environments page of the settings dashboard.
 
-
-
-## Next steps
-
-- [Example Walkthrough](/example-walkthrough)
+- [StationOps Wizard](/wizard)

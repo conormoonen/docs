@@ -3,18 +3,23 @@ title: Create Service
 description: Create Service
 ---
 
+
 # {% $markdoc.frontmatter.title %}
 
 
 
-1. Click __Services__ in the side navigation.
-2. Provide a service name and then click __Create__.
-
-![Environments](/images/example-walkthrough/services.png) {% .rounded-image  %}
 
 
 
+1. Within your project dashboard click __Settings__.
+2. In the project settings dashboard select __Services__.
+3. Within Service Settings click __Create Service__.
+4. Provide a name for your service, configure the deploy permission setting and click __Create__.
 
-## Next steps
 
-- [Example Walkthrough](/example-walkthrough)
+![Create Service](/images/create/CreateServiceName.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+
+
+
+
+- [StationOps Wizard](/wizard)

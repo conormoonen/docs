@@ -26,60 +26,7 @@ You will be brought to your new project's dashboard.
 
 Before configuring AWS access in StationOps, create an Access Key in the AWS
 console with for a user with the permissions below, follow this [guide](/create-access-key) for more details.
-````
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "sts:AssumeRole",
-                "iam:CreateRole",
-                "iam:PassRole",
-                "iam:ListRoles",
-                "codestar-connections:ListConnections",
-				"codecommit:GitPull",
-				"codepipeline:GetPipelineState",
-				"codestar-connections:UseConnection"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "cloudformation:*",
-                "ecr:*",
-                "logs:*",
-                "ecs:*",
-                "ec2:*",
-                "elasticloadbalancing:*",
-                "s3:*",
-                "sqs:*",
-                "rds:*",
-                "codepipeline:*",
-                "ssm:GetParameter",
-                "ssm:GetParameters",
-                "iam:GetRole",
-                "iam:DetachRolePolicy",
-                "iam:DeleteRole",
-                "ssm:PutParameter",
-                "iam:AttachRolePolicy",
-                "iam:TagRole",
-                "iam:DeleteRolePolicy",
-                "iam:GetRolePolicy",
-                "iam:PutRolePolicy",
-                "ecr:PutLifecyclePolicy",
-                "ssm:DeleteParameter",
-                "iam:ListRoleTags",
-                "route53:*",
-                "acm:*",
-                "cloudwatch:GetMetricStatistics"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-````
+
 
 1. In your new project's dashboard click on __Settings__ top navigation item.
 2. In the side navigation click __AWS__.

@@ -5,20 +5,18 @@ description: Webhooks Overview
 
 # {% $markdoc.frontmatter.title %}
 
+## Enabling Webhooks
+1. In your project dashboard, click **Settings**.
+1. In the side navigation, click  **Webhooks**.
+1. Click *Enable Webhooks*, add a *Base Url* and **Save**.
 
-To receive webhooks, enable in *Settings* and define a base URL. Webhooks will be sent as POST requests to paths extending from this base URL.
+   ![Service Packages](/images/webhooks/enableWebhooks.png) 
 
 
 ## Webhooks type
 | Type                     | Path                     | JSON Body                                              |
 |--------------------------|--------------------------|--------------------------------------------------------|
 | Service Deploy Completed | /servicedeploy/completed | projectName, environmentName, serviceName, releaseName |
-
-
-## Enabling Webhooks
-1. In your project dashboard, click **Settings**.
-1. In the side navigation, click  **Webhooks**.
-1. Click *Enable Webhooks*, add a *Base Url* and **Save**.
 
 
 

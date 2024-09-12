@@ -1,6 +1,6 @@
 ---
-title: StationOps Wizard 
-description: StationOps Wizard
+title: StationOps Wizard Guide
+description: StationOps Wizard Guide
 ---
 
 
@@ -58,7 +58,7 @@ You will be brought to your new organisation's dashboard.
 ## Configure project environment
 
 
-1. Input your environment name and click __Next__.
+1. Input your environment names and click __Next__.
 
     ![Rollback](/images/example-walkthrough/wizCreateEnvironment.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 

@@ -13,7 +13,7 @@ export function GettingStarted(){
 
 
                 <p>
-                    Dive into the documentation or get started with a quickstart.
+                    Dive into the documentation or get started with the StationOps wizard.
                 </p>
             </div>
             <div  className="max-w-lg p-4">

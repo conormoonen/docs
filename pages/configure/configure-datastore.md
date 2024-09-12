@@ -7,17 +7,21 @@ description: Create Datastore
 
 
 
-1. Create a new configuration.
-1. Scroll down to *Datastores*
-2. Click *New Datastore*
-3. Provide details as follows:
-   - Provide your name, type and version.
-   - Choose a username, password and DB size for all environments
+1. Within your project dashboard click __Infrastructure__.
+1. In the project infrastructure dashboard click __Configurations__ in the side panel.
+2. Click __Create Configuration__.
 
-     ![Configure Backend](/images/example-walkthrough/configure-db.png) {%  .rounded-image .max-w-3xl .mx-auto %}
-3. Scroll down and click **Create**.
+    ![Create Configuration](/images/configure/createConfig.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 
+3. Within the create configuration dashboard click __Add Component__.
+4. In the component selection menu click __Database__.
+5. Provide a *name* for your database, select a database *type* and choose you database *version*.
+6. Choose which *metrics* to collect for your database.
+7. Enter any required *environment variables*.
 
-## Next steps
+    ![Datastore Configuration](/images/configure/ConfigDatabase.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 
-- [Example Walkthrough](/example-walkthrough)
+8. Click __Done__.
+9. In the create configuration dashboard click __Create__.
+
+- [StationOps Wizard](/wizard)

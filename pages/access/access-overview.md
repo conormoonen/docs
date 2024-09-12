@@ -15,4 +15,4 @@ Access is controlled at three levels:
 
 ## Next steps
 
-- [Release Deploy](/release-deploy)
+- [StationOps Wizard](/wizard)

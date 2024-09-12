@@ -3,20 +3,29 @@ title: Organisation Members
 description: Organisation Members
 ---
 
+
 # {% $markdoc.frontmatter.title %}
+
+
 
 
 Add member to organisation
 
-1. Open your organisation dashboard.
 
-   ![Service Packages](/images/access/organisation.png) {%  .rounded-image .max-w-3xl .mx-auto %}
-2. Click *View Members*.
-3. Click *Add Member*. 
-4. Provide an email. The member will be added to the organisation immediately if they have an account, otherwise when they sign up.
+1. Open your organisation dashboard and click __Settings__.
+2. Click __Connect AWS Account__.
+
+   ![Organisation Settings](/images/access/OrgSettingsDashboard.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+
+3. Provide a name for the account and click __Authorise with AWS__.
+4. In your AWS Cloudformation dashboard scroll to the bottom, check the acknowledgement and click __Create Stack__.
    
-   ![Service Packages](/images/access/organisation-members-added.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+   ![Create Stack](/images/access/createStack.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 
-## Next steps
+5. Once the stack has been created click __Done__ in StationOps.
 
-- [Release Deploy](/release-deploy)
+
+
+   ![Account Created](/images/access/accountCreated.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+
+Your  account should now be added to the organisation.

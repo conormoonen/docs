@@ -3,16 +3,16 @@ title: Restarts
 description: Restarts
 ---
 
+
 # {% $markdoc.frontmatter.title %}
 
-1. Click on *Manage* in the top navigation.
-2. Click on a database or service node.
-3. In the side navigation click *Restart*.
+
+1. In the *project management dashboard*, click on the node you want to restart.
+2. In the node management panel click on *Restart*.
 
 
 
 
+![Restart](/images/manage/restart.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 
-## Next steps
-
-- [Release Deploy](/release-deploy)
+- [StationOps Wizard](/wizard)

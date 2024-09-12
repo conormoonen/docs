@@ -7,14 +7,14 @@ const items = [
     group: 'Start',
     // title: 'Get started',
     links: [
-      { href: '/', children: 'Getting Started' },
-      { href: '/create-project', children: 'Create Project' },
-      { href: '/example-walkthrough', children: 'Example Walkthrough' }
+      { href: '/', children: 'Getting Started' }, 
+      { href: '/wizard', children: 'StationOps Wizard' }
     ]
   },
   {
     group: 'Configure',
     links: [
+      { href: '/create-project', children: 'Create Project' },
       { href: '/configure/create-environment', children: 'Create Environment' },
       { href: '/configure/create-service', children: 'Create Service' },
       { href: '/configure/create-configuration', children: 'Create Configuration' }

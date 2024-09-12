@@ -3,22 +3,34 @@ title: Configure Queue
 description: Configure Queue
 ---
 
+
 # {% $markdoc.frontmatter.title %}
 
 
 
-1. Create a new configuration.
-2. Scroll down to *Components*.
-3. Click *New Component*.
-4. Select *Queue*.
-5. Click *Add*.
-6. Provide a *Name*.
-7. Provide a *Visibility Timeout* and *Retention Period*.
-
-     ![Configure Backend](/images/configure/queue.png) {%  .rounded-image .max-w-3xl .mx-auto %}
-8. Scroll down and click **Create**.
 
 
-## Next steps
 
-- [Example Walkthrough](/example-walkthrough)
+1. Within your project dashboard click __Infrastructure__.
+2. Click on __Configurations__ within the side panel.
+3. Click __Create Configuration__.
+4. On the create configuration dashboard click __Add Component__.
+
+     ![AddComponent](/images/configure/addComponent.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+
+5. In the component selection menu select __Queue__.
+6. Provide a *Name* for your queue.
+7. Provide *Visibility Timeout* and *Retention Period* details.
+8. Select which metrics to collect for your queue.
+9. Enter any required *environment variables*
+
+
+
+
+     ![Datastore Configuration](/images/configure/QueueSettings.png) {%  .rounded-image .max-w-3xl .mx-auto %}    
+
+
+8. Scroll down and click __Done__.
+9. Within the create configuration menu click __Create__.
+
+- [StationOps Wizard](/wizard)

@@ -7,22 +7,23 @@ description: Configure Environment Variables
 
 
 
-1. Create a new configuration.
-2. Scroll down to service's variables.
-3. Click *New Variable*
-4. Provide a *Name*.
-5. Select the variable type:
-   - Input: this allows you to input a static string.
-   - Derived: this allows you to select properties of conifgured components, eg host URL, DB port.
-   - Value: Input a string, or select a derived value.
-   
-     ![Configure Backend](/images/example-walkthrough/variable-frontend.png) {%  .rounded-image .max-w-3xl .mx-auto %}
-6. To provide an environment overide, click the *Environment Overrides* button and make the override visible by clicking the eye button.
-7. Scroll down and click **Create** to save the confiuration.
+1. Within the project dashboard click __Infrastructure__.
+2. Click __Configurations__ within the Infrastructure dashboard.
+3. Select __Create Configuration__.
 
+    ![CreateEnvironmentName](/images/configure/createConfiguration.png) {%  .rounded-image .max-w-3xl .mx-auto %}
 
+4. Click the *application* component.
+5. Scroll down to the *environment variables* section.
+6. Click __Add Variable__.
+7. Provide a *Name*, *Value* and choose a *Scope*
+8. Use the *Sensitive* toggle to select whether the variable will be included in the build details.
+9. You can choose to add additional values by clicking __Add Value__.
 
+  
 
-## Next steps
+10. You can also click __Delete Variable__ to remove the variable you have configured.
 
-- [Example Walkthrough](/example-walkthrough)
+    ![CreateEnvironmentName](/images/configure/AddingVariables.png) {%  .rounded-image .max-w-3xl .mx-auto %}
+
+- [StationOps Wizard](/wizard)
